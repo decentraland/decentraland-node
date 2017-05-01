@@ -98,7 +98,8 @@ See https://nodejs.org/en/.
 `apt-get update && apt-get install -y --no-install-recommends xvfb libgtk2.0-0 libxtst-dev libxss-dev libgconf2-dev libnss3 libasound2-dev`
 4. install npm modules
 `npm install`
-5. Run the node!
+5. Change `$NODE_API_KEY` in `bin/start` to a custom key
+6. Run the node!
 `./bin/start`
 
 ### Run a node using Docker

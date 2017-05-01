@@ -1,3 +1,3 @@
 #!/bin/bash
 
-./bin/decentraland-node --fast --port=2301 --prefix="/data" --httpport=8301 --n=testnet --apikey=$NODE_API_KEY --contentport=9301 --startminer
+./bin/decentraland-node --fast --port=2301 --prefix="data" --httpport=8332 --n=testnet --apikey=$NODE_API_KEY --contentport=9301 --startminer
