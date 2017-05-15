@@ -4,7 +4,7 @@
   "description": "Full node for Decentraland, a blockchain-based virtual reality world.",
   "main": "./lib/decentraland.js",
   "bin": "./bin/start",
-  "preferGlobal": true,
+  "preferGlobal": false,
   "scripts": {
     "start": "node bin/node --fast --port=2301 --prefix=./data --httpport=8301 --n=testnet --apikey=3TR6BveE2Qpu8ytMZ7AMqmALZor3dY --contentPort=9301"
   },
@@ -21,7 +21,7 @@
     "Esteban Ordano <eordano@gmail.com> (https://github.com/eordano)",
     "Yemel Jardi <angel.jardi@gmail.com> (https://github.com/yemeljardi)",
     "Dario Sneidermanis (https://github.com/esneider)",
-    "Kyllian Le Borgne Roperch (https://github.com/HPrivakos)",
+    "Kyllian LE BORGNE ROPERCH (https://github.com/HPrivakos)",
     "Martin Triay (https://github.com/martriay)",
     "Kostas (https://github.com/vrinek)",
     "3swordjack (https://github.com/3swordjack)",
@@ -38,7 +38,6 @@
   "dependencies": {
     "bn.js": "4.11.6",
     "cors": "^2.8.1",
-    "create-torrent": "^3.28.0",
     "elliptic": "6.3.2",
     "express": "^4.14.0",
     "install": "^0.8.4",
@@ -46,9 +45,7 @@
     "leveldown": "^1.5.0",
     "mkdirp": "^0.5.1",
     "npm": "^4.0.5",
-    "parse-torrent": "^5.8.2",
-    "webtorrent": "^0.98.0",
-    "webtorrent-hybrid": "^1.0.5",
+    "ipfs": "^0.23.1",
     "whatwg-fetch": "^2.0.3"
   },
   "optionalDependencies": {
