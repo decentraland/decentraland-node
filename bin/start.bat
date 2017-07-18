@@ -21,6 +21,9 @@ REM Start web interface
 ECHO Starting Decentraland web dashboard!. The node will start shortly
 START /B node browser\server.js --apikey %RPC_API_KEY% --serverport %SERVER_PORT%
 
+REM Give the user 2 seconds to read
+TIMEOUT /T 2
+
 REM Start node
 ECHO Starting node
 .\bin\decentraland-node ^
