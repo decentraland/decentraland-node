@@ -1,0 +1,40 @@
+.Toggle input[type=checkbox] {
+  height: 0;
+  width: 0;
+  visibility: hidden;
+}
+
+.Toggle label {
+  cursor: pointer;
+  text-indent: -9999px;
+  width: 60px;
+  height: 30px;
+  background: #CCC;
+  display: block;
+  border-radius: 100px;
+  display: inline-block;
+  vertical-align: middle;
+  position: relative;
+}
+
+.Toggle label:after {
+  content: '';
+  position: absolute;
+  top: -1px;
+  left: 0;
+  width: 30px;
+  height: 30px;
+  border: 1px solid #CCC;
+  background: #FFF;
+  border-radius: 90px;
+  transition: 0.3s;
+}
+
+.Toggle input:checked + label {
+  background: #30D7A9;
+}
+
+.Toggle input:checked + label:after {
+  left: 100%;
+  transform: translateX(-100%);
+}

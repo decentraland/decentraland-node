@@ -129,7 +129,7 @@ git clone https://github.com/decentraland/bronzeage-node.git && cd bronzeage-nod
 apt-get update && apt-get install -y --no-install-recommends build-essential python xvfb libgtk2.0-0 libxtst-dev libxss-dev libgconf2-dev libnss3 libasound2-dev
 ```
 4. Install npm modules: `npm install`
-5. Change `$RPC_API_KEY` to a custom key via `export` or by changing it in `bin/start`. You can generate a random key like this:
+5. Change the `$RPC_API_KEY` env var to a custom key via `export` or by changing it in `bin/start`. You can generate a random key like this:
 ```
 head -c 32 /dev/random | base64
 ```
@@ -141,7 +141,7 @@ You may use the CLI by running it with node:
 `node bin\cli [args]`
 
 Mining will start by default. To disable this, set `$START_MINER` to `'false'` or to `0` or edit the file `bin/start` and remove the `--startminer` argument.
-7. Head over to `http://localhost:5000` (you can change the port using `$SERVER_PORT`) to see the web dashboard.
+7. Head over to `http://localhost:5000` (you can change the port using `$SERVER_PORT`) to see the [Web Dashboard](https://github.com/decentraland/bronzeage-node/tree/master/browser).
 
 ## How can I edit the land I own?
 

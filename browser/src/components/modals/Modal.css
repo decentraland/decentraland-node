@@ -1,0 +1,16 @@
+
+/* The next `!important` props are not a nice solution, but they beat adding styles on each Modal Component */
+.ReactModal__Overlay {
+  background-color: rgba(0, 0, 0, 0.25) !important;
+}
+
+.ReactModal__Content {
+  width: 60% !important;
+  left: 22% !important;
+}
+
+.ReactModal__Content .close {
+  top: 15px;
+  right: 15px;
+  position: absolute;
+}

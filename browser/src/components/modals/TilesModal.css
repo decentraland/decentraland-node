@@ -1,0 +1,9 @@
+
+.TilesModal input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+.TilesModal ul {
+  max-height: 300px;
+  padding-left: 30px;
+}

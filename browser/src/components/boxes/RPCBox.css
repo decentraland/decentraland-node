@@ -1,0 +1,17 @@
+.rpc-form {
+  margin-bottom: 15px;
+  overflow: hidden;
+}
+
+.input-cmd {
+  width: 78%;
+  float: left;
+}
+
+.input-send {
+  width: 20%;
+  float: right;
+  background-color: #30D7A9;
+  border-color: #30D7A9;
+  color: #FFF;
+}

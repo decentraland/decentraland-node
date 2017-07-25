@@ -1,0 +1,9 @@
+.App .col:last-child {
+  margin-top: 20px;
+}
+
+@media (min-width: 768px) {
+  .App .col:last-child {
+    margin-top: 0;
+  }
+}

@@ -1,0 +1,17 @@
+.Box {
+  height: 100%;
+  width: 100%;
+  border: 1px solid #CCC;
+  overflow: hidden;
+}
+
+.Box h2 {
+  margin-top: 0;
+  margin-bottom: 5px;
+  background: #c0d2ff;
+  padding: 5px 10px;
+}
+
+.Box > div {
+  padding: 15px 20px;
+}
