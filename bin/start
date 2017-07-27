@@ -13,7 +13,9 @@ if [[ ! $SERVER_PORT ]]; then
   export SERVER_PORT=5000
 fi
 
-echo "Starting Decentraland web dashboard!. The node will start shortly"
+
+echo "Starting Decentraland web dashboard! The node will start shortly after"
+
 node ./browser/server.js --apikey $RPC_API_KEY --serverport $SERVER_PORT --daemon &
 
 sleep 2 # Give the user 2 seconds to read
@@ -29,3 +31,5 @@ echo "Starting node"
   --n=testnet \
   --apikey=$RPC_API_KEY \
   --startminer=$START_MINER
+
+trap 'kill $(jobs -p) 2> /dev/null' EXIT
