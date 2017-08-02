@@ -1,11 +1,11 @@
 name: decentraland
 version: master
-summary: Single-line elevator pitch for your amazing snap # 79 char long summary
+summary: Full node for Decentraland Bronze Age
 description: |
-  This is my-snap's description. You have a paragraph or two to tell the
-  most important story about your snap. Keep it under 100 words though,
-  we live in tweetspace and your description wants to look good in the snap
-  store.
+  Decentraland is an open-source initiative to build a shared virtual reality
+   world. In Decentraland, the content of each piece of land is determined by
+  its owner. You can become a land owner either by having someone transfer you
+  some of their tiles, or by mining new land.
 
 grade: devel # must be 'stable' to release into candidate/stable channels
 confinement: strict
